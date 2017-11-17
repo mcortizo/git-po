@@ -693,7 +693,7 @@ msgstr "asegure que por lo menos <n> líneas del contexto concuerden"
 #: apply.c:4985 builtin/am.c:2244 builtin/interpret-trailers.c:95
 #: builtin/interpret-trailers.c:97 builtin/interpret-trailers.c:99
 msgid "action"
-msgstr "accion"
+msgstr "acción"
 
 #: apply.c:4986
 msgid "detect new or modified lines that have whitespace errors"
@@ -973,7 +973,7 @@ msgid ""
 "No testable commit found.\n"
 "Maybe you started with bad path parameters?\n"
 msgstr ""
-"No se encontró confirmación que se pueda probar.\n"
+"No se encontró commit que se pueda probar.\n"
 "¿Quizás iniciaste con parámetros de rutas incorrectos?\n"
 
 #: bisect.c:995
@@ -1666,7 +1666,7 @@ msgstr "fallo al conseguir la información y nombre del kernel"
 
 #: dir.c:2102
 msgid "Untracked cache is disabled on this system or location."
-msgstr "Untracked cache esta desactivado en este sistema o ubicacion"
+msgstr "Untracked cache esta desactivado en este sistema o ubicación"
 
 #: dir.c:2885 dir.c:2890
 #, c-format
@@ -2326,7 +2326,7 @@ msgstr[1] "se encontraron %u ancestros comunes:"
 
 #: merge-recursive.c:2112
 msgid "merge returned no commit"
-msgstr "la fusión no devolvió ninguna confirmación"
+msgstr "la fusión no devolvió ningun commit"
 
 #: merge-recursive.c:2175
 #, c-format
@@ -2895,12 +2895,12 @@ msgstr "Tu rama está actualizada con '%s'.\n"
 #, c-format
 msgid "Your branch is ahead of '%s' by %d commit.\n"
 msgid_plural "Your branch is ahead of '%s' by %d commits.\n"
-msgstr[0] "Tu rama está adelantada a '%s' por %d confirmación.\n"
-msgstr[1] "Tu rama está adelantada a '%s' por %d confirmaciones.\n"
+msgstr[0] "Tu rama está adelantada a '%s' por %d commit.\n"
+msgstr[1] "Tu rama está adelantada a '%s' por %d commits.\n"
 
 #: remote.c:2093
 msgid "  (use \"git push\" to publish your local commits)\n"
-msgstr "  (usa \"git push\" para publicar tus confirmaciones locales)\n"
+msgstr "  (usa \"git push\" para publicar tus commits locales)\n"
 
 #: remote.c:2096
 #, c-format
@@ -2908,10 +2908,10 @@ msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
 msgid_plural ""
 "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] ""
-"Tu rama está detrás de '%s' por %d confirmación, y puede ser avanzada "
+"Tu rama está detrás de '%s' por %d commit, y puede ser avanzada "
 "rápido.\n"
 msgstr[1] ""
-"Tu rama está detrás de '%s' por %d confirmaciones, y puede ser avanzada "
+"Tu rama está detrás de '%s' por %d commits, y puede ser avanzada "
 "rápido.\n"
 
 #: remote.c:2104
@@ -3003,7 +3003,7 @@ msgstr "rebase -i"
 #: sequencer.c:224
 #, c-format
 msgid "Unknown action: %d"
-msgstr "Accion desconocida: %d"
+msgstr "Acción desconocida: %d"
 
 #: sequencer.c:281
 msgid ""
@@ -3145,7 +3145,7 @@ msgstr ""
 #: sequencer.c:838 sequencer.c:863
 #, c-format
 msgid "This is a combination of %d commits."
-msgstr "Esta es una combinacion de %d commits."
+msgstr "Esta es una combinación de %d commits."
 
 #: sequencer.c:847 sequencer.c:2681
 msgid "need a HEAD to fixup"
@@ -3166,7 +3166,7 @@ msgstr "no se puede escribir '%s'"
 
 #: sequencer.c:866 git-rebase--interactive.sh:446
 msgid "This is the 1st commit message:"
-msgstr "Este es el mensaje de la 1ra confirmación:"
+msgstr "Este es el mensaje del 1er commit:"
 
 #: sequencer.c:874
 #, c-format
@@ -3217,7 +3217,7 @@ msgstr "no se puede obtener el mensaje de commit para %s"
 #: sequencer.c:1014
 #, c-format
 msgid "%s: cannot parse parent commit %s"
-msgstr "%s: no se puede analizar la confirmación padre %s"
+msgstr "%s: no se puede analizar el commit padre %s"
 
 #: sequencer.c:1077 sequencer.c:1853
 #, c-format
@@ -3236,7 +3236,7 @@ msgstr "no se pudo aplicar %s... %s"
 
 #: sequencer.c:1171
 msgid "empty commit set passed"
-msgstr "conjunto de confirmación vacío aprobado"
+msgstr "conjunto de commits vacío entregado"
 
 #: sequencer.c:1181
 #, c-format
@@ -4575,7 +4575,7 @@ msgstr "Estas editando un commit durante un rebase."
 
 #: wt-status.c:1312
 msgid "  (use \"git commit --amend\" to amend the current commit)"
-msgstr "  (usa \"git commit --amend\" para enmendar la confirmación actual)"
+msgstr "  (usa \"git commit --amend\" para enmendar el commit actual)"
 
 #: wt-status.c:1314
 msgid ""
@@ -4601,7 +4601,7 @@ msgstr ""
 #: wt-status.c:1334
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
 msgstr ""
-"  (use \"git cherry-pick --abort\" para cancelar la operacion cherry-pick)"
+"  (use \"git cherry-pick --abort\" para cancelar la operación cherry-pick)"
 
 #: wt-status.c:1343
 #, c-format
@@ -4701,7 +4701,7 @@ msgstr "Sin cambios"
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
 msgstr ""
-"sin cambios agregados a la confirmación (usa \"git add\" y/o \"git commit -a"
+"sin cambios agregados al commit (usa \"git add\" y/o \"git commit -a"
 "\")\n"
 
 #: wt-status.c:1649
@@ -4715,7 +4715,7 @@ msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to "
 "track)\n"
 msgstr ""
-"no hay nada agregado a la confirmación pero hay archivos sin seguimiento "
+"no hay nada agregado al commit pero hay archivos sin seguimiento "
 "presentes (usa \"git add\" para hacerles seguimiento)\n"
 
 #: wt-status.c:1655
@@ -5872,7 +5872,7 @@ msgstr "no se puede editar la descripción de más de una rama"
 #: builtin/branch.c:720
 #, c-format
 msgid "No commit on branch '%s' yet."
-msgstr "Aún no hay confirmaciones en la rama '%s'."
+msgstr "Aún no hay commits en la rama '%s'."
 
 #: builtin/branch.c:723
 #, c-format
@@ -7448,7 +7448,7 @@ msgstr "mostrar diff en el template del mensaje de commit"
 
 #: builtin/commit.c:1599
 msgid "Commit message options"
-msgstr "Opciones para el mensaje de la confirmación"
+msgstr "Opciones para el mensaje del commit"
 
 #: builtin/commit.c:1600 builtin/tag.c:388
 msgid "read message from file"
@@ -7460,7 +7460,7 @@ msgstr "autor"
 
 #: builtin/commit.c:1601
 msgid "override author for commit"
-msgstr "sobrescribe el autor de la confirmación"
+msgstr "sobrescribe el autor del commit"
 
 #: builtin/commit.c:1602 builtin/gc.c:359
 msgid "date"
@@ -7468,7 +7468,7 @@ msgstr "fecha"
 
 #: builtin/commit.c:1602
 msgid "override date for commit"
-msgstr "sobrescribe la fecha de la confirmación"
+msgstr "sobrescribe la fecha del commit"
 
 #: builtin/commit.c:1603 builtin/merge.c:225 builtin/notes.c:402
 #: builtin/notes.c:565 builtin/tag.c:386
@@ -7477,7 +7477,7 @@ msgstr "mensaje"
 
 #: builtin/commit.c:1603
 msgid "commit message"
-msgstr "mensaje de la confirmación"
+msgstr "mensaje del commit"
 
 #: builtin/commit.c:1604 builtin/commit.c:1605 builtin/commit.c:1606
 #: builtin/commit.c:1607 parse-options.h:257 ref-filter.h:92
@@ -7518,7 +7518,7 @@ msgstr "usar archivo de template especificado"
 
 #: builtin/commit.c:1611
 msgid "force edit of commit"
-msgstr "forzar la edición de la confirmación"
+msgstr "forzar la edición del commit"
 
 #: builtin/commit.c:1612
 msgid "default"
@@ -7535,11 +7535,11 @@ msgstr "incluir status en el template del mensaje de commit"
 #: builtin/commit.c:1615 builtin/merge.c:237 builtin/pull.c:173
 #: builtin/revert.c:113
 msgid "GPG sign commit"
-msgstr "firmar confirmación con GPG"
+msgstr "firmar commit con GPG"
 
 #: builtin/commit.c:1618
 msgid "Commit contents options"
-msgstr "Opciones para el contenido de la confirmación"
+msgstr "Opciones para el contenido del commit"
 
 #: builtin/commit.c:1619
 msgid "commit all changed files"
@@ -7564,16 +7564,15 @@ msgstr "sólo confirmar archivos específicos"
 #: builtin/commit.c:1624
 msgid "bypass pre-commit and commit-msg hooks"
 msgstr ""
-"evitar los capturadores (hooks) de pre-confirmación (pre-commit) y mensaje "
-"de confirmación (commit-msg)"
+"evitar los capturadores (hooks) de pre-commit y commit-msg"
 
 #: builtin/commit.c:1625
 msgid "show what would be committed"
-msgstr "mostrar lo que sería confirmado"
+msgstr "mostrar lo que sería incluído en el commit"
 
 #: builtin/commit.c:1636
 msgid "amend previous commit"
-msgstr "enmendar confirmación previa"
+msgstr "enmendar commit previo"
 
 #: builtin/commit.c:1637
 msgid "bypass post-rewrite hook"
@@ -7608,7 +7607,7 @@ msgstr "no se pudo leer el mensaje de commit: %s"
 #: builtin/commit.c:1756
 #, c-format
 msgid "Aborting commit due to empty commit message.\n"
-msgstr "Abortando confirmación debido que el mensaje está en blanco.\n"
+msgstr "Abortando commit debido que el mensaje está en blanco.\n"
 
 #: builtin/commit.c:1761
 #, c-format
@@ -7659,7 +7658,7 @@ msgstr "leer config del objeto blob suministrado"
 
 #: builtin/config.c:63
 msgid "Action"
-msgstr "Accion"
+msgstr "Acción"
 
 #: builtin/config.c:64
 msgid "get value: name [value-regex]"
@@ -7675,7 +7674,7 @@ msgstr "obtener valores para una regexp: nombre-regex [valor-regex]"
 
 #: builtin/config.c:67
 msgid "get value specific for the URL: section[.var] URL"
-msgstr "obtener valor especifico para el URL: seccion[.var] URL"
+msgstr "obtener valor especifico para el URL: sección[.var] URL"
 
 #: builtin/config.c:68
 msgid "replace all matching variables: name value [value_regex]"
@@ -7700,7 +7699,7 @@ msgstr "renombrar sección: nombre-viejo nombre-nuevo"
 
 #: builtin/config.c:73
 msgid "remove a section: name"
-msgstr "borrar una seccion: nombre"
+msgstr "borrar una sección: nombre"
 
 #: builtin/config.c:74
 msgid "list all"
@@ -8287,7 +8286,7 @@ msgstr "no se puede traer en la rama actual"
 
 #: builtin/fetch.c:654
 msgid "[tag update]"
-msgstr "[actualización de etiqueta]"
+msgstr "[actualización de tag]"
 
 #: builtin/fetch.c:655 builtin/fetch.c:688 builtin/fetch.c:704
 #: builtin/fetch.c:719
@@ -8296,7 +8295,7 @@ msgstr "no se posible actualizar el ref local"
 
 #: builtin/fetch.c:674
 msgid "[new tag]"
-msgstr "[nueva etiqueta]"
+msgstr "[nuevo tag]"
 
 #: builtin/fetch.c:677
 msgid "[new branch]"
@@ -9038,11 +9037,11 @@ msgstr "'%s': visualizador de man desconocido"
 
 #: builtin/help.c:357
 msgid "no man viewer handled the request"
-msgstr "ningun visualizador de manual proceso la peticion"
+msgstr "ningun visualizador de manual proceso la petición"
 
 #: builtin/help.c:365
 msgid "no info viewer handled the request"
-msgstr "ningún vizor de info manejo la peticion"
+msgstr "ningún vizor de info manejo la petición"
 
 #: builtin/help.c:407
 msgid "Defining attributes per path"
@@ -10244,7 +10243,7 @@ msgstr "No hay mensaje de fusión -- no actualizando HEAD\n"
 #: builtin/merge.c:456
 #, c-format
 msgid "'%s' does not point to a commit"
-msgstr "'%s' no apunta a ninguna confirmación"
+msgstr "'%s' no apunta a ningun commit"
 
 #: builtin/merge.c:546
 #, c-format
@@ -10708,7 +10707,7 @@ msgstr "fallo al renombrar '%s'"
 
 #: builtin/name-rev.c:338
 msgid "git name-rev [<options>] <commit>..."
-msgstr "git name-rev [<opciones>] <confirmación>..."
+msgstr "git name-rev [<opciones>] <commit>..."
 
 #: builtin/name-rev.c:339
 msgid "git name-rev [<options>] --all"
@@ -10724,7 +10723,7 @@ msgstr "imprimir sólo nombres (sin SHA-1)"
 
 #: builtin/name-rev.c:396
 msgid "only use tags to name the commits"
-msgstr "sólo usar etiquetas para nombrar confirmaciones"
+msgstr "sólo usar tags para nombrar commits"
 
 #: builtin/name-rev.c:398
 msgid "only use refs matching <pattern>"
@@ -10737,7 +10736,7 @@ msgstr "ignorar refs que concuerden con <patrón>"
 #: builtin/name-rev.c:402
 msgid "list all commits reachable from all refs"
 msgstr ""
-"listar todas las confirmaciones alcanzables desde todas las referencias"
+"listar todos los commits alcanzables desde todas las referencias"
 
 #: builtin/name-rev.c:403
 msgid "read from stdin"
@@ -10749,7 +10748,7 @@ msgstr "permitir imprimir nombres `undefined` (predeterminado)"
 
 #: builtin/name-rev.c:410
 msgid "dereference tags in the input (internal use)"
-msgstr "desreferenciar etiquetas en la entrada (uso interno)"
+msgstr "desreferenciar tags en la entrada (uso interno)"
 
 #: builtin/notes.c:26
 msgid "git notes [--ref <notes-ref>] [list [<object>]]"
@@ -13607,11 +13606,11 @@ msgid ""
 "[<head>]"
 msgstr ""
 "git tag [-a | -s | -u <id-de-clave>] [-f] [-m <mensaje> | -F <archivo>] "
-"<nombre-de-etiqueta> [<head>]"
+"<nombre-de-tag> [<head>]"
 
 #: builtin/tag.c:25
 msgid "git tag -d <tagname>..."
-msgstr "git tag -d <nombre-de-etiqueta>..."
+msgstr "git tag -d <nombre-de-tag>..."
 
 #: builtin/tag.c:26
 msgid ""
@@ -13630,7 +13629,7 @@ msgstr "git tag -v [--format=<formato>] <nombre-de-tag>..."
 #: builtin/tag.c:86
 #, c-format
 msgid "tag '%s' not found."
-msgstr "etiqueta '%s' no encontrada."
+msgstr "tag '%s' no encontrado."
 
 #: builtin/tag.c:102
 #, c-format
@@ -13646,7 +13645,7 @@ msgid ""
 "Lines starting with '%c' will be ignored.\n"
 msgstr ""
 "\n"
-"Escribe un mensaje para la etiqueta:\n"
+"Escribe un mensaje para la tag:\n"
 "  %s\n"
 "Las líneas que comienzan con '%c' serán ignoradas.\n"
 
@@ -13660,18 +13659,18 @@ msgid ""
 "want to.\n"
 msgstr ""
 "\n"
-"Escribe un mensaje para la etiqueta:\n"
+"Escribe un mensaje para la tag:\n"
 "  %s\n"
 "Las líneas que comienzan con '%c' serán conservadas; puedes eliminarlas por "
 "ti mismo si quieres hacerlo.\n"
 
 #: builtin/tag.c:189
 msgid "unable to sign the tag"
-msgstr "incapaz de firmar etiqueta"
+msgstr "incapaz de firmar tag"
 
 #: builtin/tag.c:191
 msgid "unable to write tag file"
-msgstr "incapaz de escribir el archivo de etiqueta"
+msgstr "incapaz de escribir el archivo de tag"
 
 #: builtin/tag.c:215
 msgid "bad object type."
@@ -13679,52 +13678,52 @@ msgstr "tipo de objeto erróneo."
 
 #: builtin/tag.c:261
 msgid "no tag message?"
-msgstr "¿Sin mensaje de etiqueta?"
+msgstr "¿Sin mensaje de tag?"
 
 #: builtin/tag.c:268
 #, c-format
 msgid "The tag message has been left in %s\n"
-msgstr "El mensaje de la etiqueta ha sido dejado en %s\n"
+msgstr "El mensaje del tag ha sido dejado en %s\n"
 
 #: builtin/tag.c:376
 msgid "list tag names"
-msgstr "listar nombres de etiquetas"
+msgstr "listar nombres de tags"
 
 #: builtin/tag.c:378
 msgid "print <n> lines of each tag message"
-msgstr "imprimir <n> líneas de cada mensaje de etiqueta"
+msgstr "imprimir <n> líneas de cada mensaje de tag"
 
 #: builtin/tag.c:380
 msgid "delete tags"
-msgstr "eliminar etiquetas"
+msgstr "eliminar tags"
 
 #: builtin/tag.c:381
 msgid "verify tags"
-msgstr "verificar etiquetas"
+msgstr "verificar tags"
 
 #: builtin/tag.c:383
 msgid "Tag creation options"
-msgstr "Opciones de creación de etiquetas"
+msgstr "Opciones de creación de tags"
 
 #: builtin/tag.c:385
 msgid "annotated tag, needs a message"
-msgstr "etiquetas anotadas necesitan un mensaje"
+msgstr "tags anotadas necesitan un mensaje"
 
 #: builtin/tag.c:387
 msgid "tag message"
-msgstr "mensaje de etiqueta"
+msgstr "mensaje de tag"
 
 #: builtin/tag.c:389
 msgid "annotated and GPG-signed tag"
-msgstr "etiqueta anotada y firmada con GPG"
+msgstr "tag anotado y firmado con GPG"
 
 #: builtin/tag.c:393
 msgid "use another key to sign the tag"
-msgstr "usar otra clave para firmar la etiqueta"
+msgstr "usar otra clave para firmar el tag"
 
 #: builtin/tag.c:394
 msgid "replace the tag if exists"
-msgstr "remplazar etiqueta si existe"
+msgstr "remplazar tag si existe"
 
 #: builtin/tag.c:395 builtin/update-ref.c:368
 msgid "create a reflog"
@@ -13732,11 +13731,11 @@ msgstr "crear un reflog"
 
 #: builtin/tag.c:397
 msgid "Tag listing options"
-msgstr "Opciones de listado de etiqueta"
+msgstr "Opciones de listado de tag"
 
 #: builtin/tag.c:398
 msgid "show tag list in columns"
-msgstr "mostrar lista de etiquetas en columnas"
+msgstr "mostrar lista de tags en columnas"
 
 #: builtin/tag.c:399 builtin/tag.c:401
 msgid "print only tags that contain the commit"
@@ -13748,15 +13747,15 @@ msgstr "mostrar solo tags que no contienen el commit"
 
 #: builtin/tag.c:403
 msgid "print only tags that are merged"
-msgstr "sólo imprimir las etiquetas que están fusionadas"
+msgstr "sólo imprimir las tags que están fusionadas"
 
 #: builtin/tag.c:404
 msgid "print only tags that are not merged"
-msgstr "sólo imprimir las etiquetas que no están fusionadas"
+msgstr "sólo imprimir las tags que no están fusionadas"
 
 #: builtin/tag.c:409
 msgid "print only tags of the object"
-msgstr "sólo imprimir etiquetas de el objeto"
+msgstr "sólo imprimir tags de el objeto"
 
 #: builtin/tag.c:453
 msgid "--column and -n are incompatible"
@@ -13793,12 +13792,12 @@ msgstr "demasiados parámetros"
 #: builtin/tag.c:519
 #, c-format
 msgid "'%s' is not a valid tag name."
-msgstr "'%s' no es un nombre de etiqueta válido."
+msgstr "'%s' no es un nombre de tag válido."
 
 #: builtin/tag.c:524
 #, c-format
 msgid "tag '%s' already exists"
-msgstr "la etiqueta '%s' ya existe"
+msgstr "el tag '%s' ya existe"
 
 #: builtin/tag.c:554
 #, c-format
@@ -14075,11 +14074,11 @@ msgstr "actualiza los archivos info desde cero"
 
 #: builtin/verify-commit.c:18
 msgid "git verify-commit [-v | --verbose] <commit>..."
-msgstr "git verify-commit [-v | --verbose] <confirmación>..."
+msgstr "git verify-commit [-v | --verbose] <commit>..."
 
 #: builtin/verify-commit.c:73
 msgid "print commit contents"
-msgstr "imprimir contenido de la confirmación"
+msgstr "imprimir contenido del commit"
 
 #: builtin/verify-commit.c:74 builtin/verify-tag.c:38
 msgid "print raw gpg status output"
@@ -14103,7 +14102,7 @@ msgstr "git verify-tag [-v | --verbose] [--format=<formato>] <tag>..."
 
 #: builtin/verify-tag.c:37
 msgid "print tag contents"
-msgstr "imprimir contenido de la etiqueta"
+msgstr "imprimir contenido del tag"
 
 #: builtin/worktree.c:16
 msgid "git worktree add [<options>] <path> [<branch>]"
@@ -14436,7 +14435,7 @@ msgstr "Crea, lista, borra o verifica un tag de objeto firmado con GPG"
 
 #: parse-options.h:145
 msgid "expiry-date"
-msgstr "fecha de expiracion"
+msgstr "fecha de expiración"
 
 #: parse-options.h:160
 msgid "no-op (backward compatibility)"
@@ -14564,7 +14563,7 @@ msgstr "No estamos bisectando."
 #: git-bisect.sh:421
 #, sh-format
 msgid "'$invalid' is not a valid commit"
-msgstr "'$invalid' no es una confirmación válida"
+msgstr "'$invalid' no es un commit válido"
 
 #: git-bisect.sh:430
 #, sh-format
@@ -14795,7 +14794,7 @@ msgstr "$onto_name: no hay base de fusión"
 #: git-rebase.sh:516
 #, sh-format
 msgid "Does not point to a valid commit: $onto_name"
-msgstr "No apunta a una confirmación válida: $onto_name"
+msgstr "No apunta a un commit válido: $onto_name"
 
 #: git-rebase.sh:539
 #, sh-format
@@ -14846,7 +14845,7 @@ msgstr "git stash clear con parámetros no está implementado"
 
 #: git-stash.sh:102
 msgid "You do not have the initial commit yet"
-msgstr "Aún no tienes una confirmación inicial."
+msgstr "Aún no tienes un commit inicial."
 
 #: git-stash.sh:117
 msgid "Cannot save the current index state"
@@ -15243,18 +15242,18 @@ msgstr "modo $mod_dst inesperado"
 #: git-submodule.sh:912
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commit $sha1_src"
-msgstr "  Advertencia: $display_name no contiene la confirmación $sha1_src"
+msgstr "  Advertencia: $display_name no contiene el commit $sha1_src"
 
 #: git-submodule.sh:915
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commit $sha1_dst"
-msgstr "  Advertencia: $display_name no contiene la confirmación $sha1_dst"
+msgstr "  Advertencia: $display_name no contiene el commit $sha1_dst"
 
 #: git-submodule.sh:918
 #, sh-format
 msgid "  Warn: $display_name doesn't contain commits $sha1_src and $sha1_dst"
 msgstr ""
-"Advertencia: $display_name no contiene las confirmaciones $sha1_src y "
+"Advertencia: $display_name no contiene los commits $sha1_src y "
 "$sha1_dst"
 
 #: git-submodule.sh:1064
@@ -15310,8 +15309,8 @@ msgid ""
 "Do not remove any line. Use 'drop' explicitly to remove a commit.\n"
 msgstr ""
 "\n"
-"No eliminar ninguna línea. Usa 'drop' explícitamente para eliminar una "
-"confirmación.\n"
+"No eliminar ninguna línea. Usa 'drop' explícitamente para borrar un commit "
+"\n"
 
 #: git-rebase--interactive.sh:175
 msgid ""
@@ -15348,7 +15347,7 @@ msgstr "$sha1: no es un commit que pueda ser cogido"
 #: git-rebase--interactive.sh:275
 #, sh-format
 msgid "Invalid commit name: $sha1"
-msgstr "Nombre de confirmación inválido: $sha1"
+msgstr "Nombre de commit inválido: $sha1"
 
 #: git-rebase--interactive.sh:317
 msgid "Cannot write current commit's replacement sha1"
@@ -15387,19 +15386,19 @@ msgstr "No se pudo coger $sha1"
 #: git-rebase--interactive.sh:417
 #, sh-format
 msgid "This is the commit message #${n}:"
-msgstr "Este es el mensaje de la confirmación #${n}:"
+msgstr "Este es el mensaje del commit #${n}:"
 
 #: git-rebase--interactive.sh:422
 #, sh-format
 msgid "The commit message #${n} will be skipped:"
-msgstr "El mensaje de confirmación #${n} será ignorado:"
+msgstr "El mensaje del commit  #${n} será ignorado:"
 
 #: git-rebase--interactive.sh:433
 #, sh-format
 msgid "This is a combination of $count commit."
 msgid_plural "This is a combination of $count commits."
-msgstr[0] "Esta es una combinación de $count confirmación."
-msgstr[1] "Esta es la combinación de $count confirmaciones."
+msgstr[0] "Esta es una combinación de $count commit."
+msgstr[1] "Esta es la combinación de $count commits."
 
 #: git-rebase--interactive.sh:442
 #, sh-format
@@ -15408,7 +15407,7 @@ msgstr "No se puede escribir $fixup_msg"
 
 #: git-rebase--interactive.sh:445
 msgid "This is a combination of 2 commits."
-msgstr "Esto es una combinación de 2 confirmaciones."
+msgstr "Esto es una combinación de 2 commits."
 
 #: git-rebase--interactive.sh:486 git-rebase--interactive.sh:529
 #: git-rebase--interactive.sh:532
@@ -15441,7 +15440,7 @@ msgstr "Detenido en $sha1_abbrev... $rest"
 #: git-rebase--interactive.sh:590
 #, sh-format
 msgid "Cannot '$squash_style' without a previous commit"
-msgstr "no se puede '$squash_style' sin una confirmación previa"
+msgstr "no se puede '$squash_style' sin un commit previo"
 
 #: git-rebase--interactive.sh:632
 #, sh-format
